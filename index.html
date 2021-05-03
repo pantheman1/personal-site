@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="fas fa-terminal fa-2x"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Peter Anderson</h1>
+								<p>I am a software developer from Utah. </p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#resume">Resume</a></li>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/intropicfam.jpg" alt="" /></span>
+								<p>My name is Peter Anderson. After 8 years working in operations management for network marketing companies managing global offices, processes, and people, I decided to expand my experience to include software engineering skills. Developing relationships of trust with people who come from diverse backgrounds is my greatest strength. My background lends itself to a unique perspective when approaching problems and the ability to communicate through these issues with others to find the best solution.</p>
+								<p>I became a software engineer because I love writing programs that provide creative solutions for everyday problems. Before becoming a programmer, I used Microsoft Excel to create these efficiencies. For example, I have personally built solutions for managing inventory on a global scale. I built an Excel model to track and come up with profitable product pricing. I helped build a forecasting model.</p>
+								<p>I now get to use JavaScript, React, Redux, Express, and more to build projects that mean something to me, and will provide value to customers and to a company. Take a look at some<a href="#projects"> projects I have built</a>!</p>
+							</article>
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								<!-- GearAgain -->
+								<a href="https://gearagain.herokuapp.com/" target="_blank"><h2 class="project__title">GearAgain</h2></a>
+								<span class="image main"><a href="https://gearagain.herokuapp.com/" target="_blank"><img src="images/gahomepage.jpg" alt="GearAgain" /></a></span>
+								<p>GearAgain is an ecommerce site where users can buy and sell used outdoor gear. I built the application using JavaScript, React, and Redux on the front end, Express and Sequelize on the back end, and Postgres for the database. React components turned out to be extremely helpful because of the nature of needing to display identical product listings throughout the site.</p>
+								<p>I am particularly proud the shopping cart feature. When a user adds items to their cart, a POST request is generated which posts the item to the database and updates the Redux store so that the items properly display in the cart. My goal with this approach (as opposed to using cookies or localstorage) was to ensure that the user's cart would persist across sessions and across devices.</p>
+								<p>The idea for GearAgain came to me as I watched my wife buy and resell used clothing, shoes, and other items online. Her experience with online sales, and our passion for the outdoors led me to build this platform. When people use my app, it encourages people to preserve this beautiful planet on which we live, and at the same time help others find quality outdoor gear for a great price.</p>
+								
+								<!-- OpenChef -->
+								<a href="https://open-chef.herokuapp.com/" target="_blank"><h2 class="project__title">OpenChef</h2></a>
+								<span class="image main"><a href="https://open-chef.herokuapp.com/" target="_blank"><img src="images/ochomepage.jpg" alt="OpenChef" /></a></span>
+								<p>OpenChef is an <a href="https://opentable.com" target="_blank">OpenTable</a> clone where users can browse for and book chefs to come cook at their event. We utilized JavaScript, React, and Redux on the front end, and Python and Flask-SQLAlchemy on the back end with a PostgreSQL database.</p>
+								<p>My main focus was building a dynamic profile page which allows users to view and update their user and/or chef information. I utilized conditional logic and React state management to allow seamless toggling between Reservations and Account info.</p> 
+								<p>I used thunk middleware and the built-in JavaScript <strong>fetch</strong> method to make a <strong>PATCH</strong> request to the back end where I wrote Python queries to update the user info in the PostgreSQL database.</p>
+								<p>Users can also view their chef reservations, past and current, which I styled using flexbox and I created the functionality on the front end and back end to both edit and delete a reservation.</p>
+								
+								<!-- Do Your Chores! -->
+								<a href="https://doyourchores.herokuapp.com/" target="_blank"><h2 class="project__title">Do Your Chores!</h2></a>
+								<span class="image main"><a href="https://doyourchores.herokuapp.com/" target="_blank"><img src="images/dychomepage.jpg" alt="Do your chores" /></a></span>
+								<p>At some point, every parent wishes their kids would just stop playing for long enough to do their chores. I am such a parent, and getting my four rag-a-muffins to do their chores...is a chore.</p> 
+								<p>The Do Your Chores! web application aims to solve the issue by allowing parents to sign in and add chores to different "Zones" in their house. Each chore is assigned to a child user who works to complete their list of assigned chores. Each time a chore is completed by a child, the parent will get prompted to approve the work. Once the chore is approved, the chore marks as complete, and the parent can say without any hesitation, "Yes, you can go play with friends."</p>
+								<p>The front end is built using React, Redux, and JavaScript and the backend uses Express, Sequelize, and PostgreSQL for the database. The app allows for two types of users: a parent, or account owner, and a child, who has limited access.</p>
+								<p>In future versions of this app, each time a child completes a chore they will make progress towards rewards that the parent and child set together.</p>
+							</article>
+
+						<!-- Resume -->
+							<article id="resume">
+								<h2 class="major">Resume</h2>
+								<div class="resume-wrapper">
+								<iframe 
+									class="resume"
+									src="https://docs.google.com/document/d/e/2PACX-1vQioHPKPTzlxAnyDed2JLWGP_st5vWkRAx2QIiwQM0vS_675y3T0qawaPbR18KsVFVTtgvcj1mHmMpE/pub?embedded=true">
+								</iframe>
+								<p>
+									<a href="/images/Peter Anderson Resume 2021.pdf" download>Download PDF</a>
+								</p>
+							</div>
+							</article>
+
+						<!-- Skills -->
+        <article id="skills">
+          <h2 class="major">Skills</h2>
+          <div class="technologies-wrapper">
+            <p class="icon brands fa-js technologies">&nbsp;&nbsp;JavaScript</p>
+            <p class="icon brands fa-node-js technologies">&nbsp;&nbsp;Node.js</p>
+            <p class="icon brands fa-react technologies">&nbsp;&nbsp;React.js</p>
+            <p class="icon brands fa-skyatlas technologies">&nbsp;&nbsp;Redux</p>
+            <p class="icon solid fa-server technologies">&nbsp;&nbsp;Express.js</p>
+            <p class="icon solid fa-cube technologies">&nbsp;&nbsp;Sequelize</p>
+            <p class="icon brands fa-python technologies">&nbsp;&nbsp;Python</p>
+            <p class="icon brands fa-affiliatetheme technologies">&nbsp;&nbsp;Flask</p>
+            <p class="icon solid fa-flask technologies">&nbsp;&nbsp;SQLAlchemy</p>
+            <p class="icon brands fa-evernote technologies">&nbsp;&nbsp;PostgreSQL</p>
+            <p class="icon brands fa-html5 technologies">&nbsp;&nbsp;HTML</p>
+            <p class="icon brands fa-css3-alt technologies">&nbsp;&nbsp;CSS</p>
+            <p class="icon brands fa-git-alt technologies">&nbsp;&nbsp;Git</p>
+            <p class="icon brands fa-markdown technologies">&nbsp;&nbsp;Markdown</p>
+            <p class="icon brands fa-aws technologies">&nbsp;&nbsp;AWS S3</p>
+            <!-- <p class="icon solid fa-database technologies">&nbsp;&nbsp;SQL</p> -->
+            <!-- <p class="icon brands fa-docker technologies">&nbsp;&nbsp;Docker</p> -->
+          </div>
+        </article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="POST" data-netlify="true">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+										<div class="field">
+											<label for="upload">Upload</label>
+											<input type="file" name="myfile" id="myfile" rows="4" />
+										</div>
+										<div class="field">
+											<div data-netlify-recaptcha="true"></div>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/peterbanderson1/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/pantheman1" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://angel.co/u/peter-anderson-29" target="_blank" class="icon brands fa-angellist"><span class="label">Angel List</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
